@@ -1,0 +1,3 @@
+p[data-unit]:after {
+  content: attr(data-unit);
+}
