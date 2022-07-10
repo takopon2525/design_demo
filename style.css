@@ -1,3 +1,16 @@
-p[data-unit]:after {
-  content: attr(data-unit);
+.list_apple li {
+  list-style: none;
+  padding-left: 30px;
+  position: relative;
+}
+
+.list_apple li:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
