@@ -3,7 +3,9 @@ body {
   display: grid;
   grid-template-rows:
     "header header" auto
-    "sidebar main" 1fr;
+    "sidebar main" 1fr
+    "footer footer" auto
+    /240px 1fr
 }
 header {
   height: 80px;
