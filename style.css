@@ -1,16 +1,15 @@
-.list_apple li {
-  list-style: none;
-  padding-left: 30px;
-  position: relative;
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows:
+    "header header" auto
+    "sidebar main" 1fr;
 }
-
-.list_apple li:before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 5px;
-  background: #000;
-  position: absolute;
-  top: 0.5em;
-  left: 0;
+header {
+  height: 80px;
+  border-bottom: 1px solid #000;
+}
+footer {
+  background-color: #eee;
+  height: 200px;
 }
